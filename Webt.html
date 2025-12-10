@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aesthetic Website</title>
+  <style>
+    /* Reset default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #f9f7f7, #dbe2ef);
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #112d4e;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background: #3f72af;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f9f7f7;
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      background: #ffffffaa;
+      backdrop-filter: blur(6px);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #112d4e;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    footer {
+      background: #112d4e;
+      color: #ddd;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      header {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    My Aesthetic Website
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <p>This is a clean, modern aesthetic website design using just HTML and CSS. The soft gradients, glass-like
+        panels, and smooth hover effects give it a fresh, professional feel.</p>
+    </section>
+
+    <section>
+      <h2>About Us</h2>
+      <p>We focus on creating visually pleasing and user-friendly designs. Simplicity and elegance are at the heart of
+        everything we build.</p>
+    </section>
+
+    <section>
+      <h2>Our Services</h2>
+      <p>We provide modern web design, responsive layouts, and minimalistic branding tailored to your vision.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 My Aesthetic Website | Designed with ❤
+  </footer>
+</body>
+
+</html>
